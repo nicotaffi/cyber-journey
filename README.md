@@ -14,3 +14,6 @@ Risorse principali: serie Free CCNA di NetworkChuck, Wireshark, Packet Tracer, T
 - Ogni volta che NetworkChuck mostra una topologia di rete, provo a ricostruirla da solo prima di vedere come la fa lui.
 - Aumento la complessità man mano che avanza la teoria: VLAN, DHCP, subnet multiple.
 - Ricostruisco a memoria l'ultima rete complessa vista, senza guardare appunti — dove mi blocco è la mia lista di ripasso.
+
+- ## Log settimanale - giorno 3: pratica con Packet Tracer
+**24/09** — Confronto pratico Hub vs Switch in Packet Tracer: ho collegato più PC prima tramite un hub, poi tramite uno switch, e testato l'invio di messaggi/ping tra loro. Con l'hub, il traffico veniva ripetuto su tutte le porte indipendentemente dal destinatario (dispositivo di Layer 1, nessuna intelligenza sull'indirizzamento). Con lo switch, il traffico veniva inoltrato solo alla porta del vero destinatario, perché impara e associa gli indirizzi MAC alle porte (Layer 2). Ho anche configurato una connessione wireless tra un laptop e un router wireless, verificando la connettività.
