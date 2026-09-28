@@ -23,3 +23,18 @@ Risorse principali: serie Free CCNA di NetworkChuck, Wireshark, Packet Tracer, T
 
 - ## Log settimanale - giorno 5: Linux basics e Profilo HTB
 **28/09** — Iniziata la serie Linux di NetworkChuck, episodio 1: primi comandi del terminale, `pwd` (mostra la directory in cui mi trovo), `ls` (elenca il contenuto della directory), `cd` (cambia directory) e `cd ..` (torna alla directory superiore). Creato il profilo su Hack The Box, che userò insieme a TryHackMe per la pratica sulle macchine di laboratorio nei prossimi mesi.
+Episodio sul file system di Linux (serie Linux di NetworkChuck), seguito con la pratica nel terminale. Concetto chiave: in Linux "tutto è un file", anche dispositivi hardware, configurazioni e gli stessi comandi.
+
+Cartelle principali viste:
+- `/` radice di tutto il file system
+- `/bin` e `/sbin` comandi di base e comandi di amministrazione
+- `/usr` applicazioni e programmi degli utenti, `/usr/local` programmi personalizzati
+- `/home` cartelle personali degli utenti, `/root` cartella dell'amministratore
+- `/dev` dispositivi hardware rappresentati come file
+- `/etc` file di configurazione di sistema e programmi
+- `/media` e `/mnt` unità esterne montate
+- `/boot`, `/var` (log e dati variabili), `/tmp` (file temporanei), `/lib` (librerie)
+
+Comandi provati: `whoami`, `clear`, `cat`, `cp`, `rm`, `sudo`, `adduser`, `which`.
+Mi ha stupito notare che anche `ls` sia un file vero contenuto in `/bin`.
+
