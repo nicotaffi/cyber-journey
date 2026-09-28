@@ -18,5 +18,8 @@ Risorse principali: serie Free CCNA di NetworkChuck, Wireshark, Packet Tracer, T
 - ## Log settimanale - giorno 3: pratica con Packet Tracer
 **24/09** — Confronto pratico Hub vs Switch in Packet Tracer: ho collegato più PC prima tramite un hub, poi tramite uno switch, e testato l'invio di messaggi/ping tra loro. Con l'hub, il traffico veniva ripetuto su tutte le porte indipendentemente dal destinatario (dispositivo di Layer 1, nessuna intelligenza sull'indirizzamento). Con lo switch, il traffico veniva inoltrato solo alla porta del vero destinatario, perché impara e associa gli indirizzi MAC alle porte (Layer 2). Ho anche configurato una connessione wireless tra un laptop e un router wireless, verificando la connettività.
 
-- ## Log settimanale - giorno 3: wireshark TCP handshake
+- ## Log settimanale - giorno 4: wireshark TCP handshake
 **25/09** — Analisi dell'handshake TCP a 3 vie con Wireshark: catturato traffico durante la visita a wikipedia.org, filtrato con `tcp` e individuata la sequenza completa SYN → SYN-ACK → ACK tra il mio PC (192.168.1.10) e un server Wikipedia (185.15.58.224). Osservati i campi Sequence Number e Acknowledgment Number (sia relativi che raw) nel pacchetto ACK finale. Notato anche, dalla stessa cattura, che caricare una singola pagina apre più connessioni TCP parallele verso domini diversi, incluso un dominio pubblicitario (googlesyndication.com) oltre al sito richiesto — primo assaggio pratico di tracker/terze parti nel traffico web.
+
+- ## Log settimanale - giorno 5: Linux basics e Profilo HTB
+**28/09** — Iniziata la serie Linux di NetworkChuck, episodio 1: primi comandi del terminale, `pwd` (mostra la directory in cui mi trovo), `ls` (elenca il contenuto della directory), `cd` (cambia directory) e `cd ..` (torna alla directory superiore). Creato il profilo su Hack The Box, che userò insieme a TryHackMe per la pratica sulle macchine di laboratorio nei prossimi mesi.
